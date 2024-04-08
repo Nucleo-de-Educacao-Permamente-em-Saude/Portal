@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cargos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cargo>AGENTE ADMINISTRATIVO</cargo>
+  <cargo>AGENTE ADMINISTRATIVO CLT</cargo>
+  <cargo>AGENTE COMUNITARIO DE SAUDE</cargo>
+  <cargo>AGENTE DE COMBATE AS EDEMIAS</cargo>
+  <cargo>AGENTE DE FISCALIZACAO</cargo>
+  <cargo>AGENTE DE TRANSITO</cargo>
+  <cargo>AGENTE DE UNIDADE SOCIAL I</cargo>
+  <cargo>AGENTE DE UNIDADE SOCIAL II</cargo>
+  <cargo>AGENTE DE UNIDADE SOCIAL III</cargo>
+  <cargo>AJUDANTE DE SERVICOS GERAIS</cargo>
+  <cargo>ARQUITETO</cargo>
+  <cargo>ARTESAO CLT</cargo>
+  <cargo>ASSENTADOR DE TUBOS</cargo>
+  <cargo>ASSISTENTE DE ADMINISTRACAO 40</cargo>
+  <cargo>ASSISTENTE SOCIAL</cargo>
+  <cargo>ASSISTENTE TEC.PEDAGOGICO</cargo>
+  <cargo>ATENDENTE DE EDUCACAO I</cargo>
+  <cargo>AUXILIAR CONS.ODONTOLOGICO</cargo>
+  <cargo>AUXILIAR DE ENFERMAGEM 24 HS</cargo>
+  <cargo>AUXILIAR DE ENFERMAGEM 40 HS</cargo>
+  <cargo>AUXILIAR DE GUARDA VIDA</cargo>
+  <cargo>AUXILIAR DE TOPOGRAFO</cargo>
+  <cargo>BORRACHEIRO</cargo>
+  <cargo>CALCETEIRO</cargo>
+  <cargo>CALCETEIRO CLT</cargo>
+  <cargo>CARPINTEIRO</cargo>
+  <cargo>CHEFE DE GABINETE</cargo>
+  <cargo>COMANDANTE DA GUARDA CIVIL MUNICIPAL</cargo>
+  <cargo>CONSELHEIRO TUTELAR</cargo>
+  <cargo>CONTADOR</cargo>
+  <cargo>CORREGEDOR</cargo>
+  <cargo>COVEIRO</cargo>
+  <cargo>CUIDADOR SOCIAL</cargo>
+  <cargo>DENTISTA-20 HS - PSF</cargo>
+  <cargo>DENTISTA-20HS</cargo>
+  <cargo>DESENHISTA</cargo>
+  <cargo>DIRETOR DE DEPARTAMENTO</cargo>
+  <cargo>DIRETOR DE DIVISAO I</cargo>
+  <cargo>DIRETOR DE DIVISAO II</cargo>
+  <cargo>DIRETOR DE DIVISAO III</cargo>
+  <cargo>DIRETOR DE UNIDADE ESCOLAR</cargo>
+  <cargo>DIRIGENTE DE CRECHE 40H CLT</cargo>
+  <cargo>EDUCADOR DE DESENVOLVIMENTO INFANTOJUVENIL</cargo>
+  <cargo>EDUCADOR FISICO</cargo>
+  <cargo>ELETRICISTA</cargo>
+  <cargo>ENCANADOR</cargo>
+  <cargo>ENFERMEIRO</cargo>
+  <cargo>ENGENHEIRO</cargo>
+  <cargo>ENGENHEIRO AMBIENTAL</cargo>
+  <cargo>ESTAGIARIO II</cargo>
+  <cargo>ESTAGIARIO III</cargo>
+  <cargo>FARMACEUTICO</cargo>
+  <cargo>FEITOR</cargo>
+  <cargo>FEITOR CLT</cargo>
+  <cargo>FISIOTERAPEUTA</cargo>
+  <cargo>FONOAUDIOLOGO</cargo>
+  <cargo>FUNILEIRO</cargo>
+  <cargo>GRAFICO</cargo>
+  <cargo>GUARDA CIVIL MUNICIPA 3 CLASSE</cargo>
+  <cargo>GUARDA CIVIL MUNICIPA 4 CLASSE</cargo>
+  <cargo>GUARDA CIVIL MUNICIPAL 2 CLASSE</cargo>
+  <cargo>GUARDA DE 4 CLASSE NIVEL I</cargo>
+  <cargo>INSPETOR</cargo>
+  <cargo>INSPETOR CHEFE ADMINISTRATIVO</cargo>
+  <cargo>INSPETOR CHEFE DEPARTAMENTO</cargo>
+  <cargo>INSPETOR CHEFE OPERACIONAL</cargo>
+  <cargo>INSPETOR DE ALUNOS</cargo>
+  <cargo>INSPETOR DE GUARDA AMBIENTAL</cargo>
+  <cargo>INSPETOR DE GUARDA COSTEIRA</cargo>
+  <cargo>INSTRUTOR DE DANCA</cargo>
+  <cargo>INSTRUTOR DE MUSICA</cargo>
+  <cargo>JARDINEIRO</cargo>
+  <cargo>LABORATORISTA</cargo>
+  <cargo>MECANICO</cargo>
+  <cargo>MEDICO</cargo>
+  <cargo>MOTORISTA</cargo>
+  <cargo>MOTORISTA CLT</cargo>
+  <cargo>NUTRICIONISTA</cargo>
+  <cargo>OPERADOR DE MAQUI. MANUAIS CLT</cargo>
+  <cargo>OPERADOR DE MAQUINAS</cargo>
+  <cargo>OPERADOR DE MAQUINAS MANUAIS</cargo>
+  <cargo>OPERADOR DE RADIO</cargo>
+  <cargo>OPERADOR DE VIDEOMONITORAMENTO</cargo>
+  <cargo>ORIENTADOR ESPORTIVO CLT</cargo>
+  <cargo>ORIENTADOR SOCIAL</cargo>
+  <cargo>OUVIDOR</cargo>
+  <cargo>PEDREIRO</cargo>
+  <cargo>PINTOR</cargo>
+  <cargo>PORTEIRO</cargo>
+  <cargo>PREFEITO</cargo>
+  <cargo>PROCURADOR GERAL DO MUNICIPIO</cargo>
+  <cargo>PROCURADOR N I INICIAL 40</cargo>
+  <cargo>PROCURADOR N I INTERMEDIAR 30H</cargo>
+  <cargo>PROCURADOR N I INTERMEDIARIA 40</cargo>
+  <cargo>PROCURADOR N II CAT INICIAL 40</cargo>
+  <cargo>PROCURADOR N II INTERMED 40HS</cargo>
+  <cargo>PROCURADOR N III CA INICIAL 40</cargo>
+  <cargo>PROCURADOR N III CAT INTERM 40</cargo>
+  <cargo>PROCURADOR N III INTERMEDIA 30</cargo>
+  <cargo>PROCURADOR N IV CAT.INTERM 40</cargo>
+  <cargo>PROCURADOR N IV INICIAL  40H</cargo>
+  <cargo>PROCURADOR N V  INICIAL 40</cargo>
+  <cargo>PROFESSOR ADJUNTO I</cargo>
+  <cargo>PROFESSOR ADJUNTO I CONTRATADO</cargo>
+  <cargo>PROFESSOR DE DANCA</cargo>
+  <cargo>PROFESSOR DE MUSIC.CANTO.CORAL</cargo>
+  <cargo>PROFESSOR DE VIOLAO</cargo>
+  <cargo>PROFESSOR I  27 HORAS</cargo>
+  <cargo>PROFESSOR I CLT</cargo>
+  <cargo>PROFESSOR II  27 HORAS</cargo>
+  <cargo>PROFESSOR III 30 HORAS</cargo>
+  <cargo>PROFESSOR IV</cargo>
+  <cargo>PROFESSOR RECREACIONISTA 30 HS</cargo>
+  <cargo>PROFISSIONAL PROGRAMA MAIS MEDICOS</cargo>
+  <cargo>PROFISSIONAL PROGRAMA MEDICOS PELO BRASIL</cargo>
+  <cargo>PROFISSIONAL PROGRAMA MEDICOS RESIDENTES</cargo>
+  <cargo>PROGRAMADOR DE COMPUTADOR</cargo>
+  <cargo>PSICOLOGO</cargo>
+  <cargo>RECEPCIONISTA</cargo>
+  <cargo>SECRETARIO ADJUNTO</cargo>
+  <cargo>SECRETARIO CHEFE GAB PREFEITO</cargo>
+  <cargo>SECRETARIO MUNICIPAL</cargo>
+  <cargo>SERVENTE</cargo>
+  <cargo>SERVENTE CLT</cargo>
+  <cargo>SERVENTE I</cargo>
+  <cargo>SERVENTE II</cargo>
+  <cargo>SERVENTE II CLT</cargo>
+  <cargo>SUBSECRETARIO</cargo>
+  <cargo>SUPERVISOR DE UNIDADE ESCOLAR</cargo>
+  <cargo>TECNICO DE CONTABILIDADE</cargo>
+  <cargo>TECNICO DE CONTABILIDADE CLT</cargo>
+  <cargo>TECNICO DE ENFERMAGEM</cargo>
+  <cargo>TECNICO DESPORTIVO EM FUTEBOL DE SALAO(FUTSAL)</cargo>
+  <cargo>TECNICO DESPORTIVO EM GINASTICA ARTISTICA</cargo>
+  <cargo>TECNICO DESPORTIVO EM GINASTICA RITIMICA</cargo>
+  <cargo>TECNICO DESPORTIVO EM HANDEBOL</cargo>
+  <cargo>TECNICO DESPORTIVO EM JUDO</cargo>
+  <cargo>TECNICO EM EQ. DE INFORMATICA</cargo>
+  <cargo>TECNICO EM FARMACIA</cargo>
+  <cargo>TECNICO EM NUTRICAO</cargo>
+  <cargo>TECNICO PED. DESP. J.TABULEIRO</cargo>
+  <cargo>TECNICO PED. DESPOR. EM JUDO</cargo>
+  <cargo>TECNICO PED. DESPOR. EM KARATE</cargo>
+  <cargo>TECNICO PED. DESPOR. EM SKAT</cargo>
+  <cargo>TECNICO PED. DESPOR. EM SURF</cargo>
+  <cargo>TECNICO PED. DESPOR. NATACAO</cargo>
+  <cargo>TECNICO PED. DESPOR.ESP.CAMPO</cargo>
+  <cargo>TECNICO PED. DESPOR.TAEKWONDO</cargo>
+  <cargo>TECNICO PED.DESP. EM ATLETISMO</cargo>
+  <cargo>TECNICO PED.DESP.ATIV.NAUTICAS</cargo>
+  <cargo>TECNICO PED.DESP.ESPOR QUADRA</cargo>
+  <cargo>TECNICO PED.DESP.GIN.ARTISTICA</cargo>
+  <cargo>TECNICO PED.DESP.P.DEFICI. PCD</cargo>
+  <cargo>TECNICO PED.DESP.TENIS.DE.MESA</cargo>
+  <cargo>TECNICO PED.DESPORT.JOGOS AREA</cargo>
+  <cargo>TECNOLOGO EM GEOPROCESSAMENTO</cargo>
+  <cargo>TELEFONISTA</cargo>
+  <cargo>TERAPEUTA OCUPACIONAL</cargo>
+  <cargo>TOPOGRAFO</cargo>
+  <cargo>TRABALHADOR</cargo>
+  <cargo>TRABALHADOR CLT</cargo>
+  <cargo>TRABALHADOR CONTRATADO</cargo>
+  <cargo>VETERINARIO</cargo>
+  <cargo>VICE PREFEITO</cargo>
+</cargos>

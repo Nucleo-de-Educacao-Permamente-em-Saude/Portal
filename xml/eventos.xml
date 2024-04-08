@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventos>
+  <evento>
+    <id>1</id>
+    <titulo>Habilidades de Vida</titulo>
+    <descricao>Descrição do Evento 1</descricao>
+    <data>29/01/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>50</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>2</id>
+    <titulo>Habilidades de Vida</titulo>
+    <descricao>Descrição do Evento 1</descricao>
+    <data>30/01/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>50</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>3</id>
+    <titulo>Habilidades de Vida</titulo>
+    <descricao>Descrição do Evento 1</descricao>
+    <data>31/01/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>50</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>4</id>
+    <titulo>Habilidades de Vida</titulo>
+    <descricao>Descrição do Evento 1</descricao>
+    <data>01/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>50</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>5</id>
+    <titulo>Habilidades de Vida</titulo>
+    <descricao>Descrição do Evento 1</descricao>
+    <data>02/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>50</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>6</id>
+    <titulo>Cuidados Paliativos</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>30/01/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>7</id>
+    <titulo>Cuidados Paliativos</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>30/01/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>8</id>
+    <titulo>Cuidados Paliativos</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>31/01/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>9</id>
+    <titulo>Cuidados Paliativos</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>31/01/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>10</id>
+    <titulo>Leptospirose e Dengue</titulo>
+    <descricao>Manejo clínico de Leptospirose e Dengue</descricao>
+    <data>06/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>11</id>
+    <titulo>Leptospirose e Dengue</titulo>
+    <descricao>Manejo clínico de Leptospirose e Dengue</descricao>
+    <data>06/02/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>12</id>
+    <titulo>Leptospirose e Dengue</titulo>
+    <descricao>Manejo clínico de Leptospirose e Dengue</descricao>
+    <data>07/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>13</id>
+    <titulo>Leptospirose e Dengue</titulo>
+    <descricao>Manejo clínico de Leptospirose e Dengue</descricao>
+    <data>07/02/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>Capacitação</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#32CD32</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>14</id>
+    <titulo>Dados E-SUS - Turma II</titulo>
+    <descricao>Previne Brasil + Dados Epidemiológicos. Usafas: Aloha, Boqueirão, Mirim II, Princesa, Quietude, Ribeirópolis, Rio Branco, Santa Marina, Tude Bastos e Vila Sônia.</descricao>
+    <data>20/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>E-SUS</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#808000</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>15</id>
+    <titulo>Dados E-SUS - Turma II</titulo>
+    <descricao>Previne Brasil + Dados Epidemiológicos. Usafas: Aloha, Boqueirão, Mirim II, Princesa, Quietude, Ribeirópolis, Rio Branco, Santa Marina, Tude Bastos e Vila Sônia.</descricao>
+    <data>20/02/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>E-SUS</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#808000</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>16</id>
+    <titulo>Dados E-SUS - Turma II</titulo>
+    <descricao>Previne Brasil + Dados Epidemiológicos. Usafas: Aloha, Boqueirão, Mirim II, Princesa, Quietude, Ribeirópolis, Rio Branco, Santa Marina, Tude Bastos e Vila Sônia.</descricao>
+    <data>21/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>E-SUS</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#808000</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>17</id>
+    <titulo>Dados E-SUS - Turma II</titulo>
+    <descricao>Previne Brasil + Dados Epidemiológicos. Usafas: Aloha, Boqueirão, Mirim II, Princesa, Quietude, Ribeirópolis, Rio Branco, Santa Marina, Tude Bastos e Vila Sônia.</descricao>
+    <data>21/02/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>E-SUS</tipo>
+    <local>USAFA Noêmia</local>
+    <vagas>0</vagas>
+    <disponivel>0</disponivel>
+    <cor>#808000</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>18</id>
+    <titulo>Cardio</titulo>
+    <descricao>Este evento é direcionado aos profissionais da Atenção Básica. Contamos com a presença dos médicos de cada Unidade.</descricao>
+    <data>27/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>19</id>
+    <titulo>Cardio</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>27/02/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>20</id>
+    <titulo>Cardio</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>28/02/2024</data>
+    <inicio>08:00</inicio>
+    <fim>12:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+  <evento>
+    <id>21</id>
+    <titulo>Cardio</titulo>
+    <descricao>Descrição do Evento 2</descricao>
+    <data>28/02/2024</data>
+    <inicio>13:00</inicio>
+    <fim>17:00</fim>
+    <tipo>CHID</tipo>
+    <local>Auditório CHID</local>
+    <vagas>40</vagas>
+    <disponivel>0</disponivel>
+    <cor>#FF6347</cor>
+    <habilitado>sim</habilitado>
+  </evento>
+<evento><id>22</id><titulo>Dengue</titulo><descricao>Alerta de epidemia</descricao><data>04/03/2024</data><inicio>09:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>80</vagas><disponivel>72</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>23</id><titulo>Dengue</titulo><descricao>Alerta </descricao><data>04/03/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>80</vagas><disponivel>77</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento></eventos>

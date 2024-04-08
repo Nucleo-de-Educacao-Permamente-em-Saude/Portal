@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<locais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <local>Almoxarifado</local>
+  <local>Atendimento ao Publico</local>
+  <local>Camara dos Deputados</local>
+  <local>Camara Municipal</local>
+  <local>Cartorio Eleitoral de Santos - Zona 272</local>
+  <local>Cartorio Eleitoral Zona 317</local>
+  <local>Cartorio Eleitoral Zona 406</local>
+  <local>Compras de Materias e Contrat.</local>
+  <local>Comunicacao Social</local>
+  <local>Coord. da Guarda Municipal</local>
+  <local>Cultura</local>
+  <local>Defesa CIVIL</local>
+  <local>Departamento de Administracao</local>
+  <local>Departamento de Patrimonio</local>
+  <local>Departamento de Receita</local>
+  <local>Depto de Educacao Ambiental</local>
+  <local>Depto de Obras de Educacao</local>
+  <local>Depto de Prog de Incl Digital</local>
+  <local>Depto Manut.ambiental</local>
+  <local>Depto Projetos Especiais</local>
+  <local>Depto.planej.leg. Educacional</local>
+  <local>Depto.tecnologia M.informacao</local>
+  <local>DIV Administrativa</local>
+  <local>DIV de Calculos e Folha Pagto</local>
+  <local>DIV de Centro de Apoio a Familia do Educando -SITIO do Campo</local>
+  <local>DIV de Control e Ger de Frota</local>
+  <local>DIV de Patrimonio Imobiliario</local>
+  <local>DIV de Patrimonio Mobiliario</local>
+  <local>DIV de Plan e Cont Orcamentari</local>
+  <local>DIV de Planejamentos e Vagas</local>
+  <local>DIV Expediente Administrativo</local>
+  <local>DIV Manut de Unid de Educacao</local>
+  <local>DIV Medicina e Seg Trabalho</local>
+  <local>Div. Alimentacao Escolar</local>
+  <local>Div. de Administracao</local>
+  <local>Div. de Pessoal</local>
+  <local>Div. Manutencao da Frota</local>
+  <local>Div.adm Almoxarifado/patri</local>
+  <local>Div.adm Sec Compras</local>
+  <local>Div.coleta Seletiva Domiciliar</local>
+  <local>Div.de Estagio Probatorio</local>
+  <local>Div.de Manut.da Orla Praia</local>
+  <local>Div.de Manut.de Drenagem</local>
+  <local>Div.de Vias Pavimentadas</local>
+  <local>Div.manut.de Proprios</local>
+  <local>Divisao  Permissoes Concessoes</local>
+  <local>Divisao  Receitas  Mobiliarias</local>
+  <local>Divisao de Almoxarifado</local>
+  <local>Divisao de Apoio</local>
+  <local>Divisao de Areas Verdes</local>
+  <local>Divisao de Arquivo Publico Municipal</local>
+  <local>Divisao de Arrecadacao e Patio</local>
+  <local>Divisao de Cemiterio</local>
+  <local>Divisao de Contabilidade</local>
+  <local>Divisao de Divida Ativa</local>
+  <local>Divisao de Gestao Tecnologica</local>
+  <local>Divisao de Iluminacao Publica</local>
+  <local>Divisao de Indicacoes e Requerimentos</local>
+  <local>Divisao de Legislacao e Normas</local>
+  <local>Divisao de Limpeza Urbana</local>
+  <local>Divisao de Obras de Educacao</local>
+  <local>Divisao de Planejamento e Engenharia de Trafego</local>
+  <local>Divisao de Recursos Humanos</local>
+  <local>Divisao de Servicos Gerais</local>
+  <local>Divisao de Servicos Internos e Externos</local>
+  <local>Divisao de Suporte Tecnico</local>
+  <local>Divisao de Tomadas de Contas</local>
+  <local>Divisao de Transportes</local>
+  <local>Divisao Orientacao Fisc Trans.</local>
+  <local>Dpto de Pessoal</local>
+  <local>Dpto Pla.execuèao Orcamentario</local>
+  <local>Dpto.de Gestao de Pessoas</local>
+  <local>E01-eepg Adelaide P.dos Santos</local>
+  <local>E03-eepg Profa.maria P. Nobre</local>
+  <local>E04-epg Dr.reynaldo K. Busch</local>
+  <local>E05-eepg Abrahao Jacob Lafer</local>
+  <local>E07-eepg Prof Marlene L. Silva</local>
+  <local>E08-eepg Oswaldo L.s. Toschi</local>
+  <local>E09-eepg Rev.augusto.p D Avila</local>
+  <local>E10-eepg Dr.alfredo R. Viegas</local>
+  <local>E11-eepg Profa.sylvia de Mello</local>
+  <local>E12-eepg Vila Tupi</local>
+  <local>E13-eepg Profa Magali Alonso</local>
+  <local>E14-eepg Jadim Bopeva</local>
+  <local>E15-eepg Lions Club Centro</local>
+  <local>E16-eepg Prof. Pedro P G Lopes</local>
+  <local>E18-eepg.prof Julio P. Couto</local>
+  <local>E19-eepg Bal. das Palmeiras</local>
+  <local>E20-eepg Alexandrina S. Netto</local>
+  <local>E21-eepg Dep. Rubens Paiva</local>
+  <local>E22-eepg Antonio N.l. da Silva</local>
+  <local>E23-eepg Profa.wilma C.m.leone</local>
+  <local>E24-eepg Laudelino F.dos Santo</local>
+  <local>E25-eepg Julio S. de Carvalho</local>
+  <local>E26-eepg Prof.francisco M.sant</local>
+  <local>E28-ceeja Max Dada Gallizzi</local>
+  <local>Estagiario</local>
+  <local>Execucao Fiscal - Forum</local>
+  <local>Forum da Comarca de P Grande</local>
+  <local>G.p. - Assessorias</local>
+  <local>G.p. - Gabinete e Dependencias</local>
+  <local>Gabinete do Secretario Adjunto</local>
+  <local>Gabinete do Vice Prefeito</local>
+  <local>Gestao de Previdencia</local>
+  <local>Gestao e Tecnologia</local>
+  <local>Grafica</local>
+  <local>Habitacao</local>
+  <local>Licitacoes, Construcoes</local>
+  <local>M01-e.m. Estina Campi Baptista</local>
+  <local>M02-e.m. Manoel Nascimento Jr</local>
+  <local>M04-e.m. Republica de Portugal</local>
+  <local>M05-e.m. Luzia Borba Ranciaro</local>
+  <local>M07-e.m. Dorivaldo Fran. Loria</local>
+  <local>M08-e.m.jose Julio M. Baptista</local>
+  <local>M09-e.m. Anahy Navarro Trovao</local>
+  <local>M10-e.m.prof Isabel F. Brefere</local>
+  <local>M11-e.m. Newton de A. Castro</local>
+  <local>M12-e.m Prof.maria N.s. Romao</local>
+  <local>M13-e.m. Idilio Perticaratti</local>
+  <local>M14-e.m. Thereza Magri</local>
+  <local>M15-e.m. Pablo T. Perutich</local>
+  <local>M16-e.m. Vila Tupiry</local>
+  <local>M17-e.m. Natale de Lucca</local>
+  <local>M18-e.m. Lions Club Ocian</local>
+  <local>M19-e.m. Ophelia C. dos Reis</local>
+  <local>M20-e.m. Idalina da C Pereira</local>
+  <local>M21-em. Sergio Vieira de Mello</local>
+  <local>M23-e.m.gov. Franco Montoro</local>
+  <local>M24-e.m. Joao B. Resine Alves</local>
+  <local>M25-e.m. Dr. Wilson Guedes</local>
+  <local>M26-e.m. Joaquim A. F. Mourao</local>
+  <local>M27-e.m. Mario Possani</local>
+  <local>M28-e.m. Anna M. Babette B.f.</local>
+  <local>M29-e.m. Eng.sergio D.freitas</local>
+  <local>M30-em. Hilda de C. Guedes</local>
+  <local>M31-e.m. Estado do Amazonas</local>
+  <local>M32-e.m S.francisco de Assis</local>
+  <local>M33-e.m. Jose Padin Mouta</local>
+  <local>M34-maria dos Remedios C Milan</local>
+  <local>M35-e.m. Dr. Roberto Shoji</local>
+  <local>M36-e.m.juliana A.r. Oliveira</local>
+  <local>M40-e.m. Ma. Luis Arruda Paes</local>
+  <local>M41-e.m. Carlos Roberto Dias</local>
+  <local>M42-e.m Jose Crego Painceira</local>
+  <local>M43-e.m Paulo Shigueo Yamauti</local>
+  <local>M44 -E.M. Vila Mirim</local>
+  <local>M45-em.ronaldo S.alves.l.ramos</local>
+  <local>M46-e.m. Gov. Mario Covas</local>
+  <local>M47-e.m.domingos S de Oliveira</local>
+  <local>M48 - E.m. Cidade da Crianca</local>
+  <local>M49 - E.m Ary Cabral</local>
+  <local>M50-e.m. Osvaldo Justo</local>
+  <local>M51-e.m. Nicolau Paal</local>
+  <local>M52-em. Eduardo G. do Barreiro</local>
+  <local>M53-em.antonio Peres Ferreira</local>
+  <local>M54-em.19 de Janeiro</local>
+  <local>M55-em.maria Clotilde L.c Rigo</local>
+  <local>M56-em.jose R dos Santos Cunha</local>
+  <local>M57-em.paulo de Souza Sandoval</local>
+  <local>M58-em.elza O. de Carvalho</local>
+  <local>M59-e.m. Roberto Mario Santini</local>
+  <local>M60-c.m.s.ter.antonio T Santan</local>
+  <local>M61-e.m.leopoldo E.vanderlinde</local>
+  <local>M62 e M Antonio R.c. de Lara</local>
+  <local>M63 E.m.layde R. Reis Loria</local>
+  <local>M64-e.m.prof Esmeralda S.novae</local>
+  <local>M65-e.m.sebastiao T. Oliveira</local>
+  <local>M66 e M Gregorio F de Siqueira</local>
+  <local>M67- em Arquit. Oscar Niemeyer</local>
+  <local>M68-e.m. Ruth V.c.l. Cardoso</local>
+  <local>M69-e.m. Albert Einstein</local>
+  <local>M70-e.m. Florisvaldo B Queiroz</local>
+  <local>M71-e.m. Mahatma Gandhi</local>
+  <local>M72- E.m. Gov. Orestes Quercia</local>
+  <local>M73-e.m.ver.felipe a de Moraes</local>
+  <local>M74-e.m Prof Maria de L Santos</local>
+  <local>M75 E.m Fued Miguel Temer</local>
+  <local>M76 E.m Circe Sanchez Toschi</local>
+  <local>M77-e.m. Roberto Francisco</local>
+  <local>M78-e.m. Joao Goncalves</local>
+  <local>M79-e.m. Visconde de Maua</local>
+  <local>M80-e.m. Valter Salerno</local>
+  <local>M81-e.m. Vereadora Isaura Campos Garcia</local>
+  <local>M82-e.m Icaro Batista Cardoso</local>
+  <local>Meio Ambiente</local>
+  <local>Patio Municipal de Veiculos</local>
+  <local>Prefeitura de Sao Vicente</local>
+  <local>Procom</local>
+  <local>Procuradoria Fiscal</local>
+  <local>Progem</local>
+  <local>Protocolo Geral</local>
+  <local>Residencia Terapeutica</local>
+  <local>S.e.a.d. Gabinete e Dependenci</local>
+  <local>S.e.u.r.b. - Gabinete e Depend</local>
+  <local>Seai - Assuntos Institucionais</local>
+  <local>Seas - Departamento de Administracao</local>
+  <local>Seas - Departamento de Programas Especiais</local>
+  <local>Seas - Departamento de Protecao Social Especial</local>
+  <local>Seas - DIV de Programa de Integ e Cidadania - Regiao Melvi</local>
+  <local>Seas - DIV de Programa de Integ e Cidadania - Regiao Real</local>
+  <local>Seas - DIV de Programa de Integ e Cidadania -REGIAO Quietude</local>
+  <local>Seas - Divisao Administrativa</local>
+  <local>Seas - Divisao de Almoxarifado</local>
+  <local>Seas - Divisao de Apoio</local>
+  <local>Seas - Divisao de Compras</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Boqueirao</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Caicara</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Guilhermina</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Ocian</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Samambaia</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Sao Jorge</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Solemar</local>
+  <local>Seas - Divisao de Conviver do Idoso - Regiao Tupi</local>
+  <local>Seas - Divisao de Fortalecimento de Vinculo - Idoso</local>
+  <local>Seas - Divisao de Protecao Especial de Alta Complexidade</local>
+  <local>Seas - Divisao de Protecao Especial de Media Complexidade</local>
+  <local>Seas - Divisao de Protecao Social Basica</local>
+  <local>Seas - Gabinete do Secretario de Assistencia Social</local>
+  <local>Seas - Secao de Controle Orcamentario</local>
+  <local>Seas - Secao de Frota</local>
+  <local>Seas - Secao de Recursos Humanos</local>
+  <local>Seas - Secretario Adjunto</local>
+  <local>Seas 8.3.1 - Conselho Tutelar</local>
+  <local>Seas 8.4.1 - Centro Dia Caicara</local>
+  <local>Seas 8.4.1 - Centro Dia Guilhermina</local>
+  <local>Seas 8.4.1 - Centro Dia Samambaia</local>
+  <local>Seas 8.4.1 - Centro Dia Sao Jorge</local>
+  <local>Seas 8.4.1 - Centro Dia Solemar</local>
+  <local>Seas 8.4.1 - Centro Dia Tupi</local>
+  <local>Seas 8.4.1 - Centro Pop</local>
+  <local>Seas 8.4.1 - Centro Socioterapeutico</local>
+  <local>Seas 8.4.1 - Creas</local>
+  <local>Seas 8.4.2 - Casa de Estar</local>
+  <local>Seas 8.4.2 - Familia Acolhedora</local>
+  <local>Seas 8.4.2 - Iasfa Aviacao - III</local>
+  <local>Seas 8.4.2 - Iasfa Boqueirao -</local>
+  <local>Seas 8.4.2 - Iasfa Ribeiropolis - IV</local>
+  <local>Seas 8.4.2 - Iasfa Sao Jorge - II</local>
+  <local>Seas 8.4.2 - Iasfa Tude Bastos -</local>
+  <local>Seas 8.4.2 - Lar Sao Francisco de Assis</local>
+  <local>Seas 8.4.2 - Residencia Inclusiva</local>
+  <local>Seas 8.4.3 - Cad. Unico</local>
+  <local>Seas 8.4.3 - Cras Canto do Forte</local>
+  <local>Seas 8.4.3 - Cras Esmeralda</local>
+  <local>Seas 8.4.3 - Cras Melvi</local>
+  <local>Seas 8.4.3 - Cras Nova Mirim</local>
+  <local>Seas 8.4.3 - Cras Quietude</local>
+  <local>Seas 8.4.3 - Cras Vila Sonia</local>
+  <local>Seas 8.4.3 - Sos Bombeiros</local>
+  <local>Seas 8.4.5 - Conviver (rodizio nas Unidades)</local>
+  <local>Seas 8.5 - Cafe Sergio Mainente</local>
+  <local>Seas 8.5 - Cafe Vila Sonia</local>
+  <local>Seas 8.5 - Escola de Trabalho</local>
+  <local>Seas 8.5 - Pic Sitio do Campo</local>
+  <local>Seas 8.5 - Pics e Cafes (rodizio nas Escolas)</local>
+  <local>Seas-div de Programa de Integ e Cidadania -REGIAO Vila Alice</local>
+  <local>Secao de  I S</local>
+  <local>Secao de Almoxarifado</local>
+  <local>Secao de Cadastro Imobiliario</local>
+  <local>Secao de Iptu</local>
+  <local>Secao Fisc de Rec Mobiliarias</local>
+  <local>Secretaria de Financas</local>
+  <local>Secretaria de Governo</local>
+  <local>Seduc 9115 - Divisao de Prestacao de Contas</local>
+  <local>Seduc 9119 - Divisao de Transporte</local>
+  <local>Seduc 912 - Departamento de Recursos Humanos</local>
+  <local>Seduc 947 - Divisao de Patrimonio e Transporte</local>
+  <local>Seduc 951 - Divisao de Educacao Infantil</local>
+  <local>Seduc 952 - Divisao de Ensino Fundamental e Medio</local>
+  <local>Seduc 953 - Divisao de Educacao Especial</local>
+  <local>Seduc 954 - Divisao Formacao e Aperfeicoamento de Educadores</local>
+  <local>Seduc 955 - Divisao de Acao Comunitaria</local>
+  <local>Seduc 957 Depto de Compl Educ Esporte, Cultura nas Escolas</local>
+  <local>Seel</local>
+  <local>Seop - Gabinete e Dependencias</local>
+  <local>Seplan - Gabinete Dependencias</local>
+  <local>Sepros-gabinete e Depedencias</local>
+  <local>Sesap - Call Center</local>
+  <local>Sesap - Centro Socio Terapeutico</local>
+  <local>Sesap - Ceo</local>
+  <local>Sesap - Consultorio na Rua - Conar</local>
+  <local>Sesap - Departamento Atencao Basica</local>
+  <local>Sesap - Departamento Atencao Especializada</local>
+  <local>Sesap - Departamento de Manutencao</local>
+  <local>Sesap - Departamento Informacao em Saude</local>
+  <local>Sesap - Depto Urgencia, Emergencia e Atencao Hospitalar</local>
+  <local>Sesap - Depto Vigilancia em Saude</local>
+  <local>Sesap - Depto. Administracao</local>
+  <local>Sesap - Div. Informacao Saude</local>
+  <local>Sesap - Divisao Analise e Desenvolvimento de Sistemas</local>
+  <local>Sesap - Divisao Assistencia Farmaceutica</local>
+  <local>Sesap - Divisao Atencao a Saude da Mulher - Ceas</local>
+  <local>Sesap - Divisao Atencao a Tuberculose e Hanseniase - Crath</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Aloha</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Anhanguera</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Antartica</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Aviacao</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Boqueirao</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Caicara</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Esmeralda</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Forte</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Guaramar</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Guilhermina</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Jd Princesa</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Maracana</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Melvi</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Mirim</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Mirim II</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Ocian</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Quietude</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Real</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Ribeiropolis</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Rio Branco</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Samambaia</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Santa Marina</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Sao Jorge</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Solemar</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Tude Bastos</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Tupi</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Tupiry</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Vila Alice</local>
+  <local>Sesap - Divisao Atencao Basica - Regiao Vila Sonia</local>
+  <local>Sesap - Divisao Atencao Domiciliar - Sad</local>
+  <local>Sesap - Divisao Atendimento Psicossocial - Regiao Norte</local>
+  <local>Sesap - Divisao Atendimento Psicossocial - Regiao Sul</local>
+  <local>Sesap - Divisao Atendimento Psicossocial em Alcool e Drogas</local>
+  <local>Sesap - Divisao Atendimento Psicossocial Infantil</local>
+  <local>Sesap - Divisao Auditoria</local>
+  <local>Sesap - Divisao Avaliacao</local>
+  <local>Sesap - Divisao Contratos e Convenios</local>
+  <local>Sesap - Divisao Controle</local>
+  <local>Sesap - Divisao Dados Epidemiologicos</local>
+  <local>Sesap - Divisao de Atencao Basica - Usafa Noemia</local>
+  <local>Sesap - Divisao de Transporte e Logistica</local>
+  <local>Sesap - Divisao Educacao Permanente</local>
+  <local>Sesap - Divisao Enfermagem</local>
+  <local>Sesap - Divisao Epidemiologia</local>
+  <local>Sesap - Divisao Especialidades em Reabilitacao - Cer</local>
+  <local>Sesap - Divisao Especialidades Medicas Ambulatoriais - Cemas</local>
+  <local>Sesap - Divisao Gerenciamento de Compras e Licitacao</local>
+  <local>Sesap - Divisao Gestao de Materiais e Insumos</local>
+  <local>Sesap - Divisao Gestao de Pessoas</local>
+  <local>Sesap - Divisao Informacao</local>
+  <local>Sesap - Divisao Manutencao</local>
+  <local>Sesap - Divisao Orcamento e Controle de Custos</local>
+  <local>Sesap - Divisao Programas de Prevencao Especial - Dst/aids</local>
+  <local>Sesap - Divisao Promocao a Saude</local>
+  <local>Sesap - Divisao Protecao a Vida Animal</local>
+  <local>Sesap - Divisao Regulacao</local>
+  <local>Sesap - Divisao Saude Ambiental</local>
+  <local>Sesap - Divisao Saude Bucal</local>
+  <local>Sesap - Divisao Unidade de Pronto Atendimento Quietude</local>
+  <local>Sesap - Divisao Vigilancia Sanitaria</local>
+  <local>Sesap - Gabinete</local>
+  <local>Sesap - Lar Sao Francisco</local>
+  <local>Sesap - Nasf</local>
+  <local>Sesap - Ouvidoria</local>
+  <local>Sesap - Samu</local>
+  <local>Sesap - Subsec de Urgencia, Emergencia e Atencao Hospitalar</local>
+  <local>Sesap - Subsecretaria Administracao</local>
+  <local>Sesap - Subsecretaria Atencao a Saude</local>
+  <local>Sesap - Subsecretaria Planejamento em Saude</local>
+  <local>Sesap - Unidade Transporte Saude - Uts</local>
+  <local>Sesap 5 - Ubs Aviacao</local>
+  <local>Sesap 51 - Ubs  Caicara</local>
+  <local>Sesap 51 - Ubs Boqueirao</local>
+  <local>Sesap 51 - Ubs Ocian</local>
+  <local>Sesap 51 - Usafa  Tude Bastos</local>
+  <local>Sesap 51 - Usafa  Tupiry II</local>
+  <local>Sesap 51 - Usafa - Vila Sonia</local>
+  <local>Sesap 51 - Usafa Anhanguera</local>
+  <local>Sesap 51 - Usafa Melvi</local>
+  <local>Sesap 51 - Usafa Ribeiropolis</local>
+  <local>Sesap 51 - Usafa Sao Jorge</local>
+  <local>Sesap 51- Usafa Vila Alice.</local>
+  <local>Sesap 61-DIVISAO de Manutencao</local>
+  <local>Sesurb - Secretaria</local>
+  <local>Setran</local>
+  <local>Setransp - Tude Bastos</local>
+  <local>Sindicato dos Trabalhadores Pg</local>
+  <local>Subsec de Acoes de Cidadania</local>
+  <local>Subsec de Controle Interno</local>
+  <local>Subsecretaria da Juventude</local>
+  <local>Subsecretaria de G. de Pessoas</local>
+  <local>Subsecretaria de Gestao Adm</local>
+  <local>Subsecretaria de Gestao Pedagogica</local>
+  <local>Subsecretaria Gestao de Meios</local>
+  <local>Tesouraria</local>
+  <local>Us01-gabinete da Educacao</local>
+</locais>
