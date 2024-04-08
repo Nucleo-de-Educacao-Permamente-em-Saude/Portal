@@ -1,0 +1,52 @@
+<?php
+  include_once './config.php';
+
+  $titulo = 'CHID';
+  $home = 'nav-link';
+  $eventos = 'nav-link active';
+  $calendario = 'nav-link';
+  session_start();
+  include CABECALHO;
+?>
+<div class="container">
+  <h1>Lista de Capacitações - Complexo Hospitalar Irmã Dulce (CHID)</h1>
+  <hr>
+      <!-- table com os produtos cadastrados -->
+      <table class="table table-borderless table-hover table-sm" width="100%">
+        <thead class="table-success">
+          <tr>
+            <th class="text-justify align-middle" width="81%">Título</th>
+            <th class="text-center align-middle" width="20%">Data</th>
+            <th class="text-center align-middle" width="5%">Vagas</th>
+            <th class="text-center align-middle" width="5%">Opção</th>
+          </tr>
+        </thead>
+        <tbody>
+      <?php
+        $xml = simplexml_load_file(EVENTOS);
+        $quebra = PHP_EOL;
+        foreach ($xml->evento as $evento):
+          if($evento->tipo == 'CHID'){
+          echo "<tr>". PHP_EOL;
+          echo "<td class='text-justify align-middle'>".(string)$evento->titulo."</td>". PHP_EOL;
+          echo "<td class='text-center align-middle'>".(string)$evento->data." às ".(string)$evento->inicio."</td>". PHP_EOL;
+          echo "<td class='text-center align-middle'>".(string)$evento->disponivel."</td>". PHP_EOL;
+          if($evento->disponivel == 0 or $evento->habilitado == 'não'){
+            $habilitado = 'disabled';
+          } else {
+            $habilitado = "";
+          };
+          echo "<td>" . PHP_EOL;
+          echo "<form action='/Inscricao' method='post'>". PHP_EOL;
+          echo "<input type='hidden' name='id' id='id' value='".(string)$evento->id."'>". PHP_EOL;
+          echo "<button type='submit' id='inscrever' class='btn btn-primary' ".(string)$habilitado.">Inscrever-se</button>". PHP_EOL;
+          echo "</form>". PHP_EOL;
+          echo "</td>". PHP_EOL;
+          echo "</tr>". PHP_EOL;
+          };
+        endforeach;
+      ?>
+    </tbody>
+  </table>
+</div>  
+<?php include RODAPE; ?>

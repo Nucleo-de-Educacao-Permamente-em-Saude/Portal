@@ -1,0 +1,33 @@
+<?php
+  include_once './config.php';
+  session_start();
+
+  if(!isset($_SESSION['USER']) == true){
+    header("Location: /");
+  }
+  $titulo = 'PAINEL';
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $class = 'class="container"';
+
+  include CABECALHO;
+?>
+<div class="container">
+  <h1 class="display-1">Bem-vindo(a) <?= $_SESSION['USER']; ?></h1>
+  <hr>
+  <div class="row">
+    <div class="text-center col-md-4">
+      <a href="/Eventos_cadastro" class="btn btn-primary">Cadastrar Evento</a>
+      <a href="/Listar" class="btn btn-primary">Editar Evento</a>
+    </div>
+    <div class="text-center col-md-4">
+      <a href="/Presencas" class="btn btn-primary">Listas de Presença</a>
+    </div>
+    <div class="text-center col-md-4">
+      <a href="/CadastroServidor" class="btn btn-primary">Cadastrar Servidor</a>
+      <a href="#" class="btn btn-primary">Editar Servidor</a>
+    </div>
+  </div>
+</div>
+<?php include RODAPE; ?>

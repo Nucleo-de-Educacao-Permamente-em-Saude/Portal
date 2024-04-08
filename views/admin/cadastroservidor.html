@@ -1,0 +1,88 @@
+<?php
+  include_once './config.php';
+  session_start();
+
+  if(!isset($_SESSION['USER']) == true){
+    header("Location: /");
+  }
+  $titulo = 'PAINEL';
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $class = 'class="starter-template"';
+
+  include CABECALHO;
+?>
+
+<div class="container">
+  <h1 class="display-1">Lista de Servidores</h1>
+  <hr>
+  <h2>Cadastro de Servidor(a)</h2>
+  <form method="post">
+    <div class="form-row">
+      <div class="form-group col-sm-2">
+        <input type="text" class="form-control" name="rf" id="rf" placeholder="Digite o R.F.">
+      </div>
+      <div class="form-group col">
+        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome completo">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-auto">
+        <select class="form-control" id="cargo" name="cargo">
+          <option selected>Selecione o cargo</option>
+          <?php
+            $xml = simplexml_load_file(CARGOS);
+            foreach($xml->cargo as $cargo):
+              echo "<option value='".$cargo."'>".$cargo."</option>";
+            endforeach;
+          ?>
+        </select>
+      </div>
+      <div class="form-group col-auto">
+        <select class="form-control" id="local" name="local">
+          <option selected>Selecione o local de trabalho</option>
+          <?php
+            $xml = simplexml_load_file(LOCAIS);
+            foreach($xml->local as $local):
+              echo "<option value='".$local."'>".$local."</option>";
+            endforeach;
+          ?>
+        </select>
+      </div>
+      <div class="form-group col-auto">
+        <input type="submit" name="salvar" value="Salvar" class="btn btn-primary">
+      </div>
+    </div>
+  </form>
+  <hr>
+  <h2>Pesquisar Servidor(a)</h2>
+  <form method="post">
+    <div class="form-row">
+      <div class="form-group col">
+        <input type="text" class="form-control" name="dado" id="dado" placeholder="Digite o nome completo ou R.F.">
+      </div>
+      <div class="form-group col-auto">
+        <input type="submit" name="pesquisar" value="Pesquisar" class="btn btn-primary">
+      </div>
+    </div>
+  </form>
+  <hr>
+</div>
+
+<?php
+  if(isset($_POST['salvar'])){
+    if(isset($_POST['rf']) && isset($_POST['nome']) && isset($_POST['cargo']) && isset($_POST['local'])){
+      $rf = $_POST['rf'];
+      $nome = $_POST['nome'];
+      $cargo = $_POST['cargo'];
+      $local = $_POST['local'];
+      
+      $xml = simplexml_load_file(SERVIDORES);
+      $obj = $xml->addChild('servidor');
+    }
+  } elseif(isset($_POST['pesquisar'])){
+
+  }
+  include RODAPE;
+?>

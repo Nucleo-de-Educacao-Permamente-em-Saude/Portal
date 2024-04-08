@@ -1,0 +1,93 @@
+<?php
+  include_once './config.php';
+
+  $titulo = 'Eventos';
+  $home = 'nav-link';
+  $eventos = 'nav-link active';
+  $calendario = 'nav-link';
+  $class = 'class="container"';
+
+  session_start();
+  include CABECALHO;
+?>
+<style>
+  <link href="https://getbootstrap.com.br/docs/4.1/examples/jumbotron/jumbotron.css" rel="stylesheet">
+</style>
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">Em Breve!</h1>
+    <p>Devido ao sucesso da 1ª Edição da EXPOSaúde "SUS de Ouro" em 2023, já estamos preparando a <b>2ª Edição da EXPOSaúde "SUS de Ouro"</b>.</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais &raquo;</a></p>
+  </div>
+</div>
+
+<link href="./css/custom.css" rel="stylesheet">
+<div class="starter-template" widht="150px" min-widht="100vw" >
+  <div id='calendar'></div>
+
+    <!-- Modal só visualização -->
+    <div class="modal fade" id="visualizar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detalhes do Evento</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" align="left">
+            <dl class="row">
+              <dt class="col-sm-3">Título:</dt>
+              <dd class="col-sm-9" id="title"></dd>
+              <dt class="col-sm-3">Descrição:</dt>
+              <dd class="col-sm-9" id="descricao"></dd>
+              <dt class="col-sm-3">Local:</dt>
+              <dd class="col-sm-9" id="onde"></dd>
+              <dt class="col-sm-3">Data:</dt>
+              <dd class="col-sm-9" id="quando"></dd>
+              <dt class="col-sm-6">Vagas disponíveis:</dt>
+              <dd class="col-sm-6" id="vagas"></dd>
+            </dl>
+          </div>
+          <div class="modal-footer">
+            <form method="post" action="/Inscricao">
+              <input type="hidden" name="id" id="id" value="">
+              <button type="submit" id="inscrever"  class="btn btn-primary">Inscrever-se</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/locales-all.global.min.js"></script>
+
+
+  <script src='js/custom.js'></script>
+</div>
+<div class="container">
+  <!-- Exemplo de linha de colunas -->
+  <div class="row conteudo-template">
+    <div class="col-md-4">
+      <h2>Capacitações</h2>
+      <p class="lead text-justify">Nossas capacitações ocorrem sempre as terças e quartas. Convidamos todos os profissionais atuantes das Unidades de Atenção Básica para participar. Para acessar o calendário clique abaixo. </p>
+      <p><a class="btn btn-secondary" href="/Noemia" role="button">Ver detalhes &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>CHID</h2>
+      <p class="lead text-justify">Estamos retomando as tratativas com o <b>Complexo Hospitalar Irmã Dulce</b>, sendo assim teremos capacitações junto ao CHID. Para saber quais os assuntos estão agendados clique abaixo.</p>
+      <p><a class="btn btn-secondary" href="/CHID" role="button">Ver detalhes &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>E-SUS</h2>
+      <p class="lead text-justify">As usafas são separadas em 03 (três) turmas que apresentam os dados do <b>Previne Brasil e Dados Epidemiológicos</b>. Para saber mais clique abaixo.</p>
+      <p><a class="btn btn-secondary" href="/E_SUS" role="button">Ver detalhes &raquo;</a></p>
+    </div>
+  </div>
+
+  <hr>
+
+</div> <!-- /container -->
+<?php include RODAPE; ?>

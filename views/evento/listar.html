@@ -1,0 +1,60 @@
+<?php
+  include_once './config.php';
+
+  $titulo = 'Inscrição';
+  $home = 'nav-link';
+  $eventos = 'nav-link active';
+  $calendario = 'nav-link';
+
+  session_start();
+  include CABECALHO;
+?>
+<div class="container">
+  <h1>lista de eventos</h1>
+  <hr>
+  <table class="table table-borderless table-hover table-sm" width="100%">
+    <thead>
+      <tr>
+        <td>Evento</td>
+        <td>Data</td>
+        <td>Horario</td>
+        <td colspan=2>Ação</td>
+      </tr>
+    </thead>
+    <tbody>
+      <?php
+        $xml = simplexml_load_file(EVENTOS);
+
+        foreach ($xml->evento as $evento):
+          echo "<tr>". PHP_EOL;
+          echo "<td class='text-justify align-middle'>".(string)$evento->titulo."</td>". PHP_EOL;
+          echo "<td class='text-center align-middle'>".(string)$evento->data." às ".(string)$evento->inicio."</td>". PHP_EOL;
+          echo "<td class='text-center align-middle'>".(string)$evento->inicio."</td>". PHP_EOL;
+          echo "<td>" . PHP_EOL;
+          echo "<form action='/Editar' method='post'>". PHP_EOL;
+          echo "<input type='hidden' name='id' id='id' value='".(string)$evento->id."'>". PHP_EOL;
+          echo "<button type='submit' id='inscrever' class='btn btn-primary'>Editar</button>". PHP_EOL;
+          echo "</form>". PHP_EOL;
+          echo "</td>". PHP_EOL;
+          echo "<td>" . PHP_EOL;
+          echo "<form action='/Liberar' method='post'>". PHP_EOL;
+          echo "<input type='hidden' name='id' id='id' value='".(string)$evento->id."'>". PHP_EOL;
+          echo "<input type='hidden' name='habilitado' id='habilitado' value='".(string)$evento->habilitado."'>". PHP_EOL;
+          echo "<button type='submit' ";
+          if((string)$evento->habilitado == 'sim'){
+            echo "class='btn btn-danger'>Bloquear</button>". PHP_EOL;
+          } else {
+            echo "class='btn btn-success'>Habilitar</button>". PHP_EOL;
+          }     
+          echo "</form>". PHP_EOL;
+          echo "</td>". PHP_EOL;
+          echo "</tr>". PHP_EOL;
+        endforeach;
+      ?>
+    </tbody>
+  </table>
+</div>
+
+<?php include RODAPE; 
+  
+?>

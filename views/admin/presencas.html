@@ -1,0 +1,59 @@
+<?php
+  include_once './config.php';
+  session_start();
+
+  if(!isset($_SESSION['USER']) == true){
+    header("Location: /");
+  }
+  $titulo = 'PAINEL';
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $class = 'class="container"';
+
+  include CABECALHO;
+?>
+<style type="text/css">
+  @media print {
+    @page {
+      size: landscape;
+    }
+  }
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <h1 class="display-1">Listas de Presença</h1>
+    </div>
+    <div class="col-md-3">
+      <a href="/Painel" class="btn btn-primary">Voltar</a>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="text-center col">Evento</div>
+    <div class="text-center col">Data</div>
+    <div class="text-center col">Horario</div>
+    <div class="text-center col">Ação</div>
+  </div>
+  <hr><hr>
+  <?php
+    $xml = simplexml_load_file(EVENTOS);
+    foreach( $xml->evento as $evento ):
+      echo '<div class="row">';
+      echo '<div class="text-center col">' . $evento->titulo . '</div>';
+      echo '<div class="text-center col">' . $evento->data . '</div>';
+      echo '<div class="text-center col">' . $evento->inicio . '</div>';
+      echo '<div class="text-center col">';
+      echo '<form method="post" action="/ImprimirLista">';
+      echo '<input type="hidden" name="print" value="' . $evento->id . '">';
+      echo '<input type="hidden" name="titulo" value="' . $evento->titulo . '">';
+      echo '<input type="hidden" name="data" value="' . $evento->data . '">';
+      echo '<input type="hidden" name="horario" value="' . $evento->inicio . '">';
+      echo '<button type="submit" class="btn btn-outline-success">Imprimir</button>';
+      echo '</form>';
+      echo '</div>';
+      echo '</div>';
+    endforeach;
+  ?>
+</div>

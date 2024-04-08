@@ -1,0 +1,23 @@
+<!-- apresenta o erro e o caminho para o arquivo 404 -->
+<?php 
+  //carrega o arquivo de configuração com as variaveis pre-definidas
+  include_once './config.php';
+
+  //atribui o valor para variavel que exibira o titulo da pagina
+  $titulo = "ERRO";
+
+
+  //inclui o arquivo 'header.html' com o cabeçalho e o menu
+  include CABECALHO;
+?>
+
+  <h1>ERRO</h1>
+
+  <p class="lead">
+    Página não encontrada.
+  </p>
+
+<?php 
+  //incui o arquivo 'footer.html' no rodapé da pagina
+  include RODAPE;
+?>

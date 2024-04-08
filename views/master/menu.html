@@ -1,0 +1,36 @@
+<!-- apresenta o menu suspenso do site -->
+<nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+  <a class="navbar-brand" href="#">NEP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="<?php print $home; ?>" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="<?php print $eventos; ?>" href="/Eventos">Eventos</a>
+      </li>
+      <li class="nav-item">
+        <a class="<?php print $calendario; ?>" href="/Calendario">Calendário</a>
+      </li><!--
+      <li class="nav-item">
+        <a class="<?php print $comite; ?>" href="/Comite">C.E.P.</a>
+      </li>-->
+    </ul>
+    <div class="my-2 my-lg-0">
+      <?php 
+      if (!isset($_SESSION['USER'])){
+        echo "<a href='/Login' class='btn btn-secondary my-2 my-sm-0'>Login</a>";
+      } else {
+        echo "<a href='/Painel' class='btn btn-secondary my-2 my-sm-0'>Painel</a>";
+        echo "<a href='/Logout' class='btn btn-secondary my-2 my-sm-0'>Sair</a>";
+      }
+      ?>
+    </div>
+  </div>
+</nav>
+<main role="main" <?php echo $class; ?> >
+  

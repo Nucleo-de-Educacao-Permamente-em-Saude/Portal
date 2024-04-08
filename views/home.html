@@ -1,0 +1,149 @@
+<?php
+  include_once './config.php';
+
+  $titulo = 'Home';
+  $home = 'nav-link active';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $class = '';
+
+  include CABECALHO;
+?>
+<style >
+  .carousel-inner > .carousel-item > img {
+      position: absolute;
+      min-height: 200%;
+      max-width: 200%;
+  }
+  
+</style>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide" >
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Manchete</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Outra manchete</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>Outra manchete, pra garantir</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Voltar</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Avançar</span>
+    </a>
+  </div>
+
+
+  <!-- Mensagens de marketing e outras featurezinhas
+  ================================================== -->
+  <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
+
+  <div class="container marketing">
+
+    <!-- Três colunas de texto, abaixo do carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h2>NEPS</h2>
+        <p>O núcleo de educação permanente em saúde é uma estrutura que promove o desenvolvimento contínuo dos profissionais da área, visando atualização e aprimoramento de habilidades. Por meio de atividades como cursos, workshops e debates, busca-se fortalecer a prática clínica, a gestão e a articulação interdisciplinar, contribuindo para a melhoria dos serviços de saúde e para a qualidade do atendimento prestado à população.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h2>Programas de Residência</h2>
+        <p>Os programas de residência médica e multiprofissional oferecem oportunidades de especialização e aprimoramento profissional em diversas áreas da saúde. Por meio de atividades práticas e teóricas supervisionadas, os residentes têm a chance de desenvolver competências técnicas e habilidades interpessoais, além de promover a integração interdisciplinar. Esses programas contribuem significativamente para a formação de profissionais qualificados e preparados para enfrentar os desafios do sistema de saúde, garantindo assim uma assistência de qualidade à população.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h2>CEP</h2>
+        <p>O Comitê de Ética em Pesquisa (CEP) é uma instância reguladora essencial em instituições de pesquisa, responsável por avaliar e monitorar aspectos éticos de projetos científicos envolvendo seres humanos. Sua função é garantir o respeito aos direitos, à dignidade e à segurança dos participantes, além de assegurar a conformidade com normas nacionais e internacionais. O CEP avalia aspectos éticos e metodológicos dos estudos, promovendo a integridade e a qualidade da pesquisa científica.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Primeiro título de featurezinhas. <span class="text-muted">Supreendente, não?!</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Aêêê, moleque! <span class="text-muted">Tá legal ou não tá?</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">E, por último, essa aqui. <span class="text-muted">Xeque-mate!</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /FIM DAS FEATUREZINHAS *-* -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Voltar ao topo</a></p>
+    <p>&copy; Div. Educação Permanente, 2017-2018 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+  </footer>
+</main><!-- /.container -->
+<?php include RODAPE; ?>
