@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<residentes>
+  <residente>
+    <matricula>residente</matricula>
+    <nome>Residente</nome>
+    <senha>residente</senha>
+    <cpf>residente</cpf>
+    <rg>residente</rg>
+    <data_nascimento>01/01/2024</data_nascimento>
+    <email>dsfldsmf</email>
+    <telefone>dslfkds</telefone>
+    <residencia>médica</residencia>
+    <tipo>residente</tipo>
+    <data_matricula>01/01/2024</data_matricula>
+    <data_conclusao>31/12/2026</data_conclusao>
+  </residente>
+</residentes>

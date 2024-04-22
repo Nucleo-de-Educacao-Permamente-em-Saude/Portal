@@ -1,0 +1,36 @@
+<?php
+  include_once './config.php';
+
+  $titulo = 'Residência Médica e Multiprofissional';
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $residencia = 'nav-link active';
+  $class = 'class="container"';
+
+  session_start();
+  include CABECALHO;
+?>
+<link href="https://getbootstrap.com.br/docs/4.1/examples/starter-template/starter-template.css" rel="stylesheet">
+<div class="container">
+  <table>
+    <thead>
+      <th>
+        <td>
+          <img src="views/img/logo_residência_médica.png">
+        </td>
+        <td>
+          <img src="views/img/logo residenciamultiprofissiona.jpg"> 
+        </td>
+      </th>
+    </thead>
+    <tbody>
+      <th>
+        <td>Médica</td>
+        <td>Multiprofissional</td>
+      </th>
+    </tbody>
+  </table>
+</div>
+
+<?php include RODAPE; ?>
