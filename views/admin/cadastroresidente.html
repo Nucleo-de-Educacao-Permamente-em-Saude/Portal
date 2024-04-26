@@ -9,6 +9,7 @@
   $home = 'nav-link';
   $eventos = 'nav-link';
   $calendario = 'nav-link';
+  $residencia = 'nav-link';
   $class = 'class="starter-template"';
 
   include CABECALHO;
@@ -21,34 +22,46 @@
   <form method="post">
     <div class="form-row">
       <div class="form-group col-sm-2">
-        <input type="text" class="form-control" name="rf" id="rf" placeholder="Digite o R.F.">
+        <input type="text" class="form-control" name="rf" id="rf" placeholder="Digite o R.F." oninput="registro(this)" maxlength="6">
       </div>
       <div class="form-group col">
-        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome completo">
+        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome completo" oninput="this.value = this.value.toUpperCase()">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-sm-2">
+        <input type="text" class="form-control" name="cpf" id="cpf" placeholder="Digite o CPF" oninput="mascara_cpf(this)">
+      </div>
+      <div class="form-group col-sm-2">
+        <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Digite o telefone" maxlength="15">
+      </div>
+      <div class="form-group col">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Digite o e-mail" oninput="this.value = this.value.toLowerCase()">
       </div>
     </div>
     <div class="form-row">
       <div class="form-group col-auto">
-        <select class="form-control" id="cargo" name="cargo">
-          <option selected>Selecione o cargo</option>
-          <?php
-            $xml = simplexml_load_file(CARGOS);
-            foreach($xml->cargo as $cargo):
-              echo "<option value='".$cargo."'>".$cargo."</option>";
-            endforeach;
-          ?>
+        <select class="form-control" id="programa" name="programa">
+          <option selected>Selecione o Programa</option>
+          <option>Residência Médica</option>
+          <option>Residência Multiprofissional</option>
         </select>
       </div>
       <div class="form-group col-auto">
-        <select class="form-control" id="local" name="local">
-          <option selected>Selecione o local de trabalho</option>
-          <?php
-            $xml = simplexml_load_file(LOCAIS);
-            foreach($xml->local as $local):
-              echo "<option value='".$local."'>".$local."</option>";
-            endforeach;
-          ?>
+        <select class="form-control" id="area" name="area">
+          <option selected>Selecione a área</option>
+          <option>Enfermagem</option>
+          <option>Fisioterapia</option>
+          <option>Medicina</option>
+          <option>Odontologia</option>
+          <option>Psicologia</option>
         </select>
+      </div>
+      <div class="form-group col-auto">
+        <label for="matricula">Data de Matricula:</label>
+      </div>
+      <div class="form-group col-auto">
+        <input type="date" class="form-control" id="matricula" name="matricula" placeholder="Digite a data de matricula">
       </div>
       <div class="form-group col-auto">
         <input type="submit" name="salvar" value="Salvar" class="btn btn-primary">
@@ -56,7 +69,7 @@
     </div>
   </form>
   <hr>
-  <h2>Pesquisar Servidor(a)</h2>
+  <h2>Pesquisar Residente</h2>
   <form method="post">
     <div class="form-row">
       <div class="form-group col">
@@ -68,21 +81,114 @@
     </div>
   </form>
   <hr>
-</div>
-
+  
 <?php
   if(isset($_POST['salvar'])){
-    if(isset($_POST['rf']) && isset($_POST['nome']) && isset($_POST['cargo']) && isset($_POST['local'])){
-      $rf = $_POST['rf'];
+    if(isset($_POST['rf']) && isset($_POST['nome']) && isset($_POST['cpf']) && isset($_POST['telefone']) && isset($_POST['email']) && isset($_POST['programa']) && isset($_POST['area']) && isset($_POST['matricula'])){
+      $matricula = $_POST['rf'];
       $nome = $_POST['nome'];
-      $cargo = $_POST['cargo'];
-      $local = $_POST['local'];
+      $cpf = $_POST['cpf'];
+      $telefone = $_POST['telefone'];
+      $email = $_POST['email'];
+      $programa = $_POST['programa'];
+      $area = $_POST['area'];
+      $data_matricula = date("d/m/Y", strtotime($_POST['matricula']));
+      $data_conclusao = date("d/m/Y", strtotime('+2 years', strtotime($_POST['matricula'])));
       
-      $xml = simplexml_load_file(SERVIDORES);
-      $obj = $xml->addChild('servidor');
+      $xml = simplexml_load_file(RESIDENTES);
+      
+      $obj = $xml->addChild('residente');
+
+      $obj->addChild('matricula', $matricula);
+      $obj->addChild('nome', $nome);
+      $obj->addChild('senha', $matricula);
+      $obj->addChild('cpf', $cpf);
+      $obj->addChild('telefone', $telefone);
+      $obj->addChild('email', $email);
+      $obj->addChild('programa', $programa);
+      $obj->addChild('area', $area);
+      $obj->addChild('data_matricula', $data_matricula);
+      $obj->addChild('data_conclusao', $data_conclusao);
+      
+      $xml->asXML(RESIDENTES);
+
+      echo "<script type='text/javascript'>alert('Residente cadastrado com sucesso!');</script>";
+    } else {
+      echo  "<script>alert('Preencha os campos corretamente.');</script>";
     }
   } elseif(isset($_POST['pesquisar'])){
 
+  } else {
+    echo "<table class='table table-borderless table-hover table-sm' width='100%'>" . PHP_EOL;
+      echo "<thead class='table-success'>" . PHP_EOL;
+        echo "<tr>" . PHP_EOL;
+          echo "<th>Registro</th>" . PHP_EOL;
+          echo "<th>Nome</th>" . PHP_EOL;
+          echo "<th>Programa</th>" . PHP_EOL;
+          echo "<th>Opção</th>" . PHP_EOL;
+        echo "</tr>" . PHP_EOL;
+      echo "</thead>" . PHP_EOL;
+      echo "<tbody>" . PHP_EOL;
+          $xml = simplexml_load_file(RESIDENTES);
+          $quebra = PHP_EOL;
+          foreach($xml->residente as $residente):
+            echo "<tr>".$quebra;
+            echo "<td>" . (string)$residente->matricula . "</td>".$quebra;
+            echo "<td>" . (string)$residente->nome . "</td>" . $quebra;
+            echo "<td>" . (string)$residente->programa . "</td>" . $quebra;
+            echo "<td>Visualizar</td>" . $quebra;
+            echo "</tr>" . $quebra;
+          endforeach;
+      echo "</tbody>" . PHP_EOL;
+    echo "</table>" . PHP_EOL;
   }
-  include RODAPE;
-?>
+  ?>
+  </div>
+  <script>
+    function registro(i){
+      var v = i.value;
+      if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+          i.value = v.substring(0, v.length-1);
+          return;
+       }
+    }
+
+    function mascara_cpf(i){
+
+       var v = i.value;
+
+       if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+          i.value = v.substring(0, v.length-1);
+          return;
+       }
+
+       i.setAttribute("maxlength", "14");
+       if (v.length == 3 || v.length == 7) i.value += ".";
+       if (v.length == 11) i.value += "-";
+
+    }
+
+    function mascara(o,f){
+        v_obj=o
+        v_fun=f
+        setTimeout("execmascara()",1)
+    }
+    function execmascara(){
+        v_obj.value=v_fun(v_obj.value)
+    }
+    function mtel(v){
+        v=v.replace(/\D/g,""); //Remove tudo o que não é dígito
+        v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+        v=v.replace(/(\d)(\d{4})$/,"$1-$2"); //Coloca hífen entre o quarto e o quinto dígitos
+        return v;
+    }
+    function id( el ){
+      return document.getElementById( el );
+    }
+    window.onload = function(){
+      id('telefone').onkeyup = function(){
+        mascara( this, mtel );
+      }
+    }
+  </script>
+  <?php include RODAPE; ?>

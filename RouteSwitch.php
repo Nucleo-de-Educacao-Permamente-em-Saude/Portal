@@ -78,6 +78,9 @@ abstract class RouteSwitch {
   protected function Residencia(){
     require __DIR__ . '/views/residencia/index.html';
   }
+  protected function CadastroResidente(){
+    require __DIR__ . '/views/admin/cadastroresidente.html';
+  }
   protected function ResidenciaMedica(){
     require __DIR__ . '/views/residencia/residencia_medica.html';
   }

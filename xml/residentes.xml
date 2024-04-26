@@ -1,17 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <residentes>
-  <residente>
-    <matricula>residente</matricula>
-    <nome>Residente</nome>
-    <senha>residente</senha>
-    <cpf>residente</cpf>
-    <rg>residente</rg>
-    <data_nascimento>01/01/2024</data_nascimento>
-    <email>dsfldsmf</email>
-    <telefone>dslfkds</telefone>
-    <residencia>médica</residencia>
-    <tipo>residente</tipo>
-    <data_matricula>01/01/2024</data_matricula>
-    <data_conclusao>31/12/2026</data_conclusao>
-  </residente>
-</residentes>
+<residente><matricula>980310</matricula><nome>ADRIEL FELIPE SANTOS BRAGA DA SILVA</nome><senha>980310</senha><cpf>377.621.578-08</cpf><telefone>(13) 99763-5141</telefone><email>adrielf7@outlook.com</email><programa>Residência Multiprofissional</programa><area>Fisioterapia</area><data_matricula>01/03/2024</data_matricula><data_conclusao>03/01/2026</data_conclusao></residente><residente><matricula>980311</matricula><nome>AMANDA PINHEIRO SOUZA</nome><senha>980311</senha><cpf>443.500.108-07</cpf><telefone>(13) 98582-5360</telefone><email>amandapinheirosouza@gmail.com</email><programa>Residência Multiprofissional</programa><area>Odontologia</area><data_matricula>01/03/2024</data_matricula><data_conclusao>01/03/2026</data_conclusao></residente></residentes>

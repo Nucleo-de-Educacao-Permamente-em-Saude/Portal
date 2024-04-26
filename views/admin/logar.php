@@ -7,6 +7,7 @@
   $password = $_POST['senha'];
 
   $xml = simplexml_load_file(ADMINS);
+  $valido = false;
 
   foreach( $xml->user as $user ):
     if($login == (string)$user->rf and $password == (string)$user->senha){
