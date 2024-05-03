@@ -5,6 +5,7 @@ define("CABECALHO", "views/master/header.html");
 
 //onde esta o menu de navegação
 define("MENU", "views/master/menu.html");
+define("MENU_ABAS", "views/residencia/menu_abas.html");
 
 //onde esta o rodapé da views
 define("RODAPE", "views/master/footer.html");
