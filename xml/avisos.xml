@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<avisos>
+  <aviso>
+    <titulo>Aula Suspensa</titulo>
+    <texto>Não haverá aula em 01/05/2024, devido feriado do Dia do Trabalhador</texto>
+    <data>01/05/2024</data>
+    <categoria>todos</categoria>
+    <situacao>inativo</situacao>
+  </aviso>
+  <aviso>
+    <titulo>Atenção</titulo>
+    <texto>Todos os residentes devem anexar as folhas de estágio à folha de ponto, ambos devidamente assinados pelo preceptor.</texto>
+    <data>06/05/2024</data>
+    <categoria>todos</categoria>
+    <situacao>ativo</situacao>
+  </aviso>
+  <aviso>
+    <titulo>Justificativas de Ponto</titulo>
+    <texto>As justificativas devem ser feitas no dia da ausência ou no próximo dia útil impreterivelmente, não esquecer de anexar documento comprobatório da ausência.</texto>
+    <data>07/05/2024</data>
+    <categoria>todos</categoria>
+    <situacao>ativo</situacao>
+  </aviso>
+</avisos>

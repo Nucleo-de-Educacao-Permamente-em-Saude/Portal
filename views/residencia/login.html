@@ -1,0 +1,31 @@
+<?php
+  include_once './config.php';
+
+  $titulo = 'LOGIN';
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $residencia = 'nav-link';
+  $class = 'class="container"';
+
+  include CABECALHO;
+?>
+<div class="container">
+  <form method="post" action="/entrar">
+    <div class="form-group">
+      <label for="registro">Matricula</label>
+      <input type="text" class="form-control" id="registro" name="registro" placeholder="Digite sua Matricula">
+    </div>
+    <div class="form-group">
+      <label for="senha">Senha</label>
+      <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>  
+</div>
+
+<?php 
+
+include RODAPE; 
+
+?>

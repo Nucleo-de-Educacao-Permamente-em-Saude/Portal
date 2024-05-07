@@ -1,21 +1,40 @@
+<div class="row">
+  <div class="col-md-2">
+    <h1 class="text-hide" style="background-image: url('views/img/download.svg'); width: 150px; height: 150px;">Foto</h1>
+  </div>
+  <div class="col">
+    <?php
+
+      foreach($xml->residente as $residente):
+        if($residente->matricula == $campo){
+          echo "<p><b>Matrícula: </b>" . $residente->matricula . "</p>";
+          echo "<p><b>Nome: </b>" . $residente->nome . "</p>";
+          echo "<p><b>Programa: </b>" . $residente->programa . "</p>";
+          echo "<p><b>Área: </b>" . $residente->area . "</p>";
+        }
+      endforeach;
+    ?>
+  </div>
+</div>
+
 <!-- Menu de opções em abas -->
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="<?php print $avisos; ?>" href="#">Avisos</a>
+    <a class="<?php print $avisos; ?>" href="/Aviso">Avisos</a>
   </li>
   <li class="nav-item">
-    <a class="<?php print $dados; ?>" href="#">Dados Pessoais</a>
+    <a class="<?php print $dados; ?>" href="/DadosCadastrais">Dados Pessoais</a>
   </li>
   <li class="nav-item">
-    <a class="<?php print $notas; ?>" href="#">Notas</a>
+    <a class="<?php print $notas; ?>" href="/Notas">Notas</a>
   </li>
   <li class="nav-item">
-    <a class="<?php print $faltas; ?>" href="#">Faltas</a>
+    <a class="<?php print $faltas; ?>" href="/Faltas">Faltas</a>
   </li>
   <li class="nav-item">
     <a class="<?php print $pedido; ?>" href="#">Solicitações</a>
   </li>
   <li class="nav-item">
-    <a class="<?php print $plano; ?>" href="#">Plano de Ensino</a>
+    <a class="<?php print $plano; ?>" href="/PlanoEnsino">Plano de Ensino</a>
   </li>
 </ul>

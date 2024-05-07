@@ -81,10 +81,16 @@ abstract class RouteSwitch {
   protected function CadastroResidente(){
     require __DIR__ . '/views/admin/cadastroresidente.html';
   }
-  protected function ResidenciaMedica(){
-    require __DIR__ . '/views/residencia/residencia_medica.html';
+  protected function Aviso(){
+    require __DIR__ . '/views/residencia/avisos.html';
   }
-  protected function ResidenciaMultiprofissional(){
-    require __DIR__ . '/views/residencia/residencia_multi.html';
+  protected function DadosCadastrais(){
+    require __DIR__ . '/views/residencia/dados.html';
+  }
+  protected function Residente(){
+    require __DIR__ . '/views/residencia/login.html';
+  }
+  protected function entrar(){
+    require __DIR__ . '/views/residencia/logar.php';
   }
 }

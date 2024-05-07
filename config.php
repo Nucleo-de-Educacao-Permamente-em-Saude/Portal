@@ -19,3 +19,4 @@ define("PUBLICO", "xml/publicos.xml");
 define("CARGOS", "xml/cargos.xml");
 define("LOCAIS", "xml/locais.xml");
 define("RESIDENTES", "xml/residentes.xml");
+define("AVISOS", "xml/avisos.xml");
