@@ -1,0 +1,67 @@
+<?php
+  include_once './config.php';
+  session_start();
+
+  if(!isset($_SESSION['USER']) == true){
+    header("Location: /");
+  }
+  $titulo = 'PAINEL';
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $residencia = 'nav-link';
+  $class = 'class="starter-template"';
+
+  include CABECALHO;
+?>
+
+<div class="container">
+  <h1 class="display-1">Lista de Disciplinas</h1>
+  <hr>
+  <h2>Cadastro de Disciplina</h2>
+  <form method="post">
+    <div class="form-row">
+      <div class="form-group col">
+        <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Digite o nome da disciplina" oninput="this.value = this.value.toUpperCase()">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-sm-2">
+        <input type="text" class="form-control" name="carga" id="carga" placeholder="Digite o CPF" oninput="mascara_cpf(this)">
+      </div>
+      <div class="form-group col-sm-2">
+        <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Digite o telefone" maxlength="15">
+      </div>
+      <div class="form-group col">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Digite o e-mail" oninput="this.value = this.value.toLowerCase()">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-auto">
+        <select class="form-control" id="programa" name="programa">
+          <option selected>Selecione o Programa</option>
+          <option>Residência Médica</option>
+          <option>Residência Multiprofissional</option>
+        </select>
+      </div>
+      <div class="form-group col-auto">
+        <select class="form-control" id="area" name="area">
+          <option selected>Selecione a área</option>
+          <option>Enfermagem</option>
+          <option>Fisioterapia</option>
+          <option>Medicina</option>
+          <option>Odontologia</option>
+          <option>Psicologia</option>
+        </select>
+      </div>
+      <div class="form-group col-auto">
+        <label for="matricula">Data de Matricula:</label>
+      </div>
+      <div class="form-group col-auto">
+        <input type="date" class="form-control" id="matricula" name="matricula" placeholder="Digite a data de matricula">
+      </div>
+      <div class="form-group col-auto">
+        <input type="submit" name="salvar" value="Salvar" class="btn btn-primary">
+      </div>
+    </div>
+  </form>

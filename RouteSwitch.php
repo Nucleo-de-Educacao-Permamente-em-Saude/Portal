@@ -87,10 +87,16 @@ abstract class RouteSwitch {
   protected function DadosCadastrais(){
     require __DIR__ . '/views/residencia/dados.html';
   }
+  protected function Notas(){
+    require __DIR__ . '/views/residencia/notas.html';
+  }
   protected function Residente(){
     require __DIR__ . '/views/residencia/login.html';
   }
   protected function entrar(){
+    require __DIR__ . '/views/residencia/logar.php';
+  }
+  protected function CadastrarDisciplina(){
     require __DIR__ . '/views/residencia/logar.php';
   }
 }

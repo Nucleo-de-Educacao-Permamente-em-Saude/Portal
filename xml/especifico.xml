@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<conceitos>
+  <conceito matricula="980310">
+    <materia>1</materia>
+    <presenca>80%</presenca>
+    <nota>10,0</nota>
+  </conceito>
+  <conceito matricula="980310">
+    <materia>3</materia>
+    <presenca>80%</presenca>
+    <nota>9,0</nota>
+  </conceito>
+  <conceito matricula="980310">
+    <materia>8</materia>
+    <presenca>100%</presenca>
+    <nota>8,0</nota>
+  </conceito>
+  <conceito matricula="980310">
+    <materia>10</materia>
+    <presenca>100%</presenca>
+    <nota>10,0</nota>
+  </conceito>
+</conceitos>

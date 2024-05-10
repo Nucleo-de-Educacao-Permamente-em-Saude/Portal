@@ -12,7 +12,7 @@
     <vagas>50</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>2</id>
@@ -26,7 +26,7 @@
     <vagas>50</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>3</id>
@@ -40,7 +40,7 @@
     <vagas>50</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>4</id>
@@ -54,7 +54,7 @@
     <vagas>50</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>5</id>
@@ -68,7 +68,7 @@
     <vagas>50</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>6</id>
@@ -82,7 +82,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>7</id>
@@ -96,7 +96,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>8</id>
@@ -110,7 +110,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>9</id>
@@ -124,7 +124,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>10</id>
@@ -138,7 +138,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>11</id>
@@ -152,7 +152,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>12</id>
@@ -166,7 +166,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>13</id>
@@ -180,7 +180,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#32CD32</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>14</id>
@@ -194,7 +194,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#808000</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>15</id>
@@ -208,7 +208,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#808000</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>16</id>
@@ -222,7 +222,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#808000</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>17</id>
@@ -236,7 +236,7 @@
     <vagas>0</vagas>
     <disponivel>0</disponivel>
     <cor>#808000</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>18</id>
@@ -250,7 +250,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>19</id>
@@ -264,7 +264,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>20</id>
@@ -278,7 +278,7 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
   <evento>
     <id>21</id>
@@ -292,6 +292,6 @@
     <vagas>40</vagas>
     <disponivel>0</disponivel>
     <cor>#FF6347</cor>
-    <habilitado>sim</habilitado>
+    <habilitado>não</habilitado>
   </evento>
-<evento><id>22</id><titulo>Dengue</titulo><descricao>Alerta de epidemia</descricao><data>04/03/2024</data><inicio>09:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>80</vagas><disponivel>72</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>23</id><titulo>Dengue</titulo><descricao>Alerta </descricao><data>04/03/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>80</vagas><disponivel>77</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento></eventos>
+<evento><id>22</id><titulo>Dengue</titulo><descricao>Alerta de epidemia</descricao><data>04/03/2024</data><inicio>09:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>80</vagas><disponivel>72</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>23</id><titulo>Dengue</titulo><descricao>Alerta </descricao><data>04/03/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>80</vagas><disponivel>77</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>24</id><titulo>Violência doméstica e seus reflexos familiares e prevenção contra o abuso infantil</titulo><descricao>A Secretaria de Saúde de Praia Grande, em parceria com a Comissão dos Direitos da Criança e do Adolescente da OAB/Santos, promoverá um evento no dia 07/05/2024 sobre a Prevenção ao Abuso Infantil. Voltado para diretores de USAFA, profissionais do E-MULTI, CAPS Infantil, entre outros, o evento busca alertar e educar sobre a importância da prevenção e identificação do abuso infantil, por meio de palestras, vídeos e distribuição de cartilhas.</descricao><data>07/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>60</vagas><disponivel>60</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>25</id><titulo>Teste Rápido - Turma I</titulo><descricao>Será dividido em duas turmas, com divulgação da escala em época oportuna, sendo disponibilizado aos profissionais que realizaram os cursos necessários, conforme pactuarão com a enfermeira Giselly, do Departamento de Enfermagem e Simone, diretora do SAE.</descricao><data>08/05/2024</data><inicio>08:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>15</vagas><disponivel>15</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>26</id><titulo>Teste Rápido - Turma II</titulo><descricao>Será dividido em duas turmas, com divulgação da escala em época oportuna, sendo disponibilizado aos profissionais que realizaram os cursos necessários, conforme pactuarão com a enfermeira Giselly, do Departamento de Enfermagem e Simone, diretora do SAE.</descricao><data>09/05/2024</data><inicio>08:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>15</vagas><disponivel>15</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>27</id><titulo>Habilidades de vida</titulo><descricao>Curso apresentado e desenvolvido pela Dra. Ana Cristina Zordan Rani Yonanime.</descricao><data>13/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>28</id><titulo>Habilidades de vida</titulo><descricao>Curso apresentado e desenvolvido pela Dra. Ana Cristina Zordan Rani Yonanime.</descricao><data>14/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>29</id><titulo>Habilidades de vida</titulo><descricao>Curso apresentado e desenvolvido pela Dra. Ana Cristina Zordan Rani Yonanime.</descricao><data>15/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>30</id><titulo>Habilidades de vida</titulo><descricao>Curso apresentado e desenvolvido pela Dra. Ana Cristina Zordan Rani Yonanime.</descricao><data>16/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>31</id><titulo>Habilidades de vida</titulo><descricao>Curso apresentado e desenvolvido pela Dra. Ana Cristina Zordan Rani Yonanime.</descricao><data>17/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>32</id><titulo>Auriculoterapia</titulo><descricao>Curso de Auriculoterapia desenvolvido e apresentado pelo Fisioterapeuta/Acupunturista Prof. Me. Luiz Gustavo Correa e Correa e a Coordenadora PICS/PG Roberta Maria Hegedus Gomes.</descricao><data>13/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>33</id><titulo>Auriculoterapia</titulo><descricao>Curso de Auriculoterapia desenvolvido e apresentado pelo Fisioterapeuta/Acupunturista Prof. Me. Luiz Gustavo Correa e Correa e a Coordenadora PICS/PG Roberta Maria Hegedus Gomes.</descricao><data>14/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>34</id><titulo>Auriculoterapia</titulo><descricao>Curso de Auriculoterapia desenvolvido e apresentado pelo Fisioterapeuta/Acupunturista Prof. Me. Luiz Gustavo Correa e Correa e a Coordenadora PICS/PG Roberta Maria Hegedus Gomes.</descricao><data>15/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>35</id><titulo>Auriculoterapia</titulo><descricao>Curso de Auriculoterapia desenvolvido e apresentado pelo Fisioterapeuta/Acupunturista Prof. Me. Luiz Gustavo Correa e Correa e a Coordenadora PICS/PG Roberta Maria Hegedus Gomes.</descricao><data>16/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#32CD32</cor><habilitado>não</habilitado></evento><evento><id>36</id><titulo>Diagnóstico e Tratamento da Doença Pulmonar Obstrutiva Crônica (DPOC)</titulo><descricao>Evento objetiva levar mais conhecimento e capacitação sobre a Doença Pulmonar Obstrutiva Crônica (DPOC), uma doença frequente que requer conhecimento atualizado.</descricao><data>14/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>30</vagas><disponivel>30</disponivel><cor>#32CD32</cor><habilitado>sim</habilitado></evento><evento><id>37</id><titulo>Diagnóstico e Tratamento da Doença Pulmonar Obstrutiva Crônica (DPOC)</titulo><descricao>Evento objetiva levar mais conhecimento e capacitação sobre a Doença Pulmonar Obstrutiva Crônica (DPOC), uma doença frequente que requer conhecimento atualizado.</descricao><data>14/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>Capacitação</tipo><local>Auditório Roberto Marinho (SEDUC)</local><vagas>30</vagas><disponivel>30</disponivel><cor>#32CD32</cor><habilitado>sim</habilitado></evento><evento><id>38</id><titulo>Dados E-SUS + SEAS (Turma II - Equipe Verde)</titulo><descricao>Para a participação nas discussões de dados do e-SUS, solicitamos a presença dos profissionais técnicos (Médico, enfermeiro, auxiliar de enfermagem, dentista e auxiliar de consultório dentário), um agente comunitário por equipe e para o diretor, é necessário que participe de pelo menos um período de discussão.</descricao><data>21/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>E-SUS</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#808000</cor><habilitado>sim</habilitado></evento><evento><id>39</id><titulo>Dados E-SUS + SEAS (Turma II - Equipe Amarela e Branca)</titulo><descricao>Para a participação nas discussões de dados do e-SUS, solicitamos a presença dos profissionais técnicos (Médico, enfermeiro, auxiliar de enfermagem, dentista e auxiliar de consultório dentário), um agente comunitário por equipe e para o diretor, é necessário que participe de pelo menos um período de discussão.</descricao><data>21/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>E-SUS</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#808000</cor><habilitado>sim</habilitado></evento><evento><id>40</id><titulo>Dados E-SUS + SEAS (Turma II - Equipe Vermelha)</titulo><descricao>Para a participação nas discussões de dados do e-SUS, solicitamos a presença dos profissionais técnicos (Médico, enfermeiro, auxiliar de enfermagem, dentista e auxiliar de consultório dentário), um agente comunitário por equipe e para o diretor, é necessário que participe de pelo menos um período de discussão.</descricao><data>22/05/2024</data><inicio>08:00</inicio><fim>12:00</fim><tipo>E-SUS</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#808000</cor><habilitado>sim</habilitado></evento><evento><id>41</id><titulo>Dados E-SUS + SEAS (Turma II - Equipe Azul)</titulo><descricao>Para a participação nas discussões de dados do e-SUS, solicitamos a presença dos profissionais técnicos (Médico, enfermeiro, auxiliar de enfermagem, dentista e auxiliar de consultório dentário), um agente comunitário por equipe e para o diretor, é necessário que participe de pelo menos um período de discussão.</descricao><data>22/05/2024</data><inicio>13:00</inicio><fim>17:00</fim><tipo>E-SUS</tipo><local>USAFA Noêmia</local><vagas>0</vagas><disponivel>0</disponivel><cor>#808000</cor><habilitado>sim</habilitado></evento></eventos>

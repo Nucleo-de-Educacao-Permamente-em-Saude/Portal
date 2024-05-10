@@ -20,3 +20,6 @@ define("CARGOS", "xml/cargos.xml");
 define("LOCAIS", "xml/locais.xml");
 define("RESIDENTES", "xml/residentes.xml");
 define("AVISOS", "xml/avisos.xml");
+define("TRANSVERSAL", "xml/transversal.xml");
+define("DISCIPLINAS", "xml/disciplinas.xml");
+define("ESPECIFICO", "xml/especifico.xml");

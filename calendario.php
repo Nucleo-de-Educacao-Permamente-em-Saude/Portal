@@ -5,6 +5,7 @@
   $home = 'nav-link';
   $eventos = 'nav-link';
   $calendario = 'nav-link active';
+  $residencia = 'nav-link';
 
   session_start();
   include CABECALHO;

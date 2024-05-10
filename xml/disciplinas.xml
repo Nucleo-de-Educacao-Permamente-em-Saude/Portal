@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<disciplinas>
+  <disciplina>
+    <id>1</id>
+    <titulo>Atenção em Sáude Mental</titulo>
+    <carga>30 horas</carga>
+    <docente>Cinthia Alves de Araújo Bissa</docente>
+  </disciplina>
+  <disciplina>
+    <id>2</id>
+    <titulo>Intervenções em Saúde Coletiva</titulo>
+    <carga>30 horas</carga>
+    <docente>Cinthia Alves de Araújo Bissa</docente>
+  </disciplina>
+  <disciplina>
+    <id>3</id>
+    <titulo>Atenção à Saúde por ciclo de vida: Saúde da criança, adolescente, adulto e idoso</titulo>
+    <carga>110 horas</carga>
+    <docente>Desirée Araújo Dantas</docente>
+  </disciplina>
+  <disciplina>
+    <id>4</id>
+    <titulo>Atenção Primária e Promoção da Saúde</titulo>
+    <carga>42 horas</carga>
+    <docente>Desirée Araújo Dantas</docente>
+  </disciplina>
+  <disciplina>
+    <id>5</id>
+    <titulo>Sistema Único de Saúde</titulo>
+    <carga>30 horas</carga>
+    <docente>Desirée Araújo Dantas</docente>
+  </disciplina>
+  <disciplina>
+    <id>6</id>
+    <titulo>Sistemas de Informação em Saúde</titulo>
+    <carga>36 horas</carga>
+    <docente>Desirée Araújo Dantas</docente>
+  </disciplina>
+  <disciplina>
+    <id>7</id>
+    <titulo>Ética e Bioética</titulo>
+    <carga>30 horas</carga>
+    <docente>Elisabete Rosa Domingues</docente>
+  </disciplina>
+  <disciplina>
+    <id>8</id>
+    <titulo>Atenção em Saúde Bucal</titulo>
+    <carga>20 horas</carga>
+    <docente>Guilherme Augusto Braga Silva</docente>
+  </disciplina>
+  <disciplina>
+    <id>9</id>
+    <titulo>Núcleo de Apoio à Saúde da Família</titulo>
+    <carga>30 horas</carga>
+    <docente>José Isaias Costa Lima</docente>
+  </disciplina>
+  <disciplina>
+    <id>10</id>
+    <titulo>Politicas Públicas de Saúde</titulo>
+    <carga>52 horas</carga>
+    <docente>José Isaias Costa Lima</docente>
+  </disciplina>
+  <disciplina>
+    <id>11</id>
+    <titulo>Trabalho em equipe Multiprofissional</titulo>
+    <carga>30 horas</carga>
+    <docente>Liliana Vaz de Lima Santos</docente>
+  </disciplina>
+  <disciplina>
+    <id>12</id>
+    <titulo>Estratégia de Saúde da Familia</titulo>
+    <carga>30 horas</carga>
+    <docente>Mariana de Almeida Medawar</docente>
+  </disciplina>
+  <disciplina>
+    <id>13</id>
+    <titulo>Práticas em Saúde da Familia</titulo>
+    <carga>20 horas</carga>
+    <docente>Mariana de Almeida Medawar</docente>
+  </disciplina>
+  <disciplina>
+    <id>14</id>
+    <titulo>Abordagem Domiciliar e Familiar</titulo>
+    <carga>20 horas</carga>
+    <docente>Renato Cesar Vaz Guimarães</docente>
+  </disciplina>
+  <disciplina>
+    <id>15</id>
+    <titulo>Vigilância em Saúde</titulo>
+    <carga>48 horas</carga>
+    <docente>Rita de Cassia Pereira</docente>
+  </disciplina>
+  <disciplina>
+    <id>16</id>
+    <titulo>Epidemiologia</titulo>
+    <carga>42 horas</carga>
+    <docente>Rodrigo França Gomes</docente>
+  </disciplina>
+  <disciplina>
+    <id>17</id>
+    <titulo>Aspectos Farmacêuticos e Gestão de Medicamentos</titulo>
+    <carga>20 horas</carga>
+    <docente>Sandra aparecida Sabbagh Berrettari</docente>
+  </disciplina>
+  <disciplina>
+    <id>18</id>
+    <titulo>Participação e Controle Social</titulo>
+    <carga>30 horas</carga>
+    <docente>Valmir Perez Junior</docente>
+  </disciplina>
+  <disciplina>
+    <id>19</id>
+    <titulo>Território e a organização e planejamento em saúde</titulo>
+    <carga>30 horas</carga>
+    <docente>Vanessa Naomi Oshiro</docente>
+  </disciplina>
+  <disciplina>
+    <id>20</id>
+    <titulo>Intervenção de urgência e emergência na ESF</titulo>
+    <carga>30 horas</carga>
+    <docente>Viviane Lopes Ferreira</docente>
+  </disciplina>
+</disciplinas>

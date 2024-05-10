@@ -1,0 +1,107 @@
+<?php
+  include_once './config.php';
+
+
+  $home = 'nav-link';
+  $eventos = 'nav-link';
+  $calendario = 'nav-link';
+  $residencia = 'nav-link';
+  $class = '';
+  $avisos = 'nav-link'; 
+  $dados = 'nav-link'; 
+  $notas = 'nav-link active'; 
+  $faltas = 'nav-link'; 
+  $pedido = 'nav-link'; 
+  $plano = 'nav-link';
+
+  session_start();
+  $campo = $_SESSION['USER'];
+  $xml = simplexml_load_file(RESIDENTES);
+  foreach($xml->residente as $residente):
+    if($residente->matricula == $campo){
+      $titulo = $residente->programa;
+    }
+  endforeach;
+
+  include CABECALHO;
+?>
+
+<div class="container">
+  <?php include MENU_ABAS; ?>
+  <div class="container" style="margin-top: 20px;">
+    <p class="h3">Eixo Transversal</p>
+    <table class="table table-striped">
+      <thead class="thead-light">
+        <tr>
+          <th class="text-center align-middle" width="30%">Disciplina</th>
+          <th class="text-center align-middle" width="10%">Carga Horária</th>
+          <th class="text-center align-middle" width="20%">Docente</th>
+          <th class="text-center align-middle" width="5%">Frequência</th>
+          <th class="text-center align-middle" width="8%">Nota Final</th>
+        </tr>
+      </thead>
+      <tbody       
+        <?php
+          $xml1 = simplexml_load_file(TRANSVERSAL);
+          $xml2 = simplexml_load_file(DISCIPLINAS);
+          foreach($xml1->conceito as $conceito):
+            $x = $conceito->attributes()['matricula'];
+            if($x == $campo){
+              echo "<tr class='text-center align-middle'>";
+              $materia = (string)$conceito->materia;
+              foreach($xml2->disciplina as $disciplina):
+                if($disciplina->id == $materia){
+                  echo "<td>".$disciplina->titulo."</td>";
+                  echo "<td>".$disciplina->carga."</td>";
+                  echo "<td>".$disciplina->docente."</td>";
+                  break;
+                }
+              endforeach;
+              echo "<td>".$conceito->presenca."</td>";
+              echo "<td>".$conceito->nota."</td>";
+              echo "</tr>";
+            }
+          endforeach;
+        ?>
+      </tbody>
+    </table>
+    <hr>
+    <p class="h3">Eixo Específico</p>
+    <table class="table table-striped">
+      <thead class="thead-light">
+        <tr>
+          <th class="text-center align-middle" width="30%">Disciplina</th>
+          <th class="text-center align-middle" width="10%">Carga Horária</th>
+          <th class="text-center align-middle" width="20%">Docente</th>
+          <th class="text-center align-middle" width="5%">Frequência</th>
+          <th class="text-center align-middle" width="8%">Nota Final</th>
+        </tr>
+      </thead>
+      <tbody       
+        <?php
+          $xml1 = simplexml_load_file(ESPECIFICO);
+          $xml2 = simplexml_load_file(DISCIPLINAS);
+          foreach($xml1->conceito as $conceito):
+            $x = $conceito->attributes()['matricula'];
+            if($x == $campo){
+              echo "<tr class='text-center align-middle'>";
+              $materia = (string)$conceito->materia;
+              foreach($xml2->disciplina as $disciplina):
+                if($disciplina->id == $materia){
+                  echo "<td>".$disciplina->titulo."</td>";
+                  echo "<td>".$disciplina->carga."</td>";
+                  echo "<td>".$disciplina->docente."</td>";
+                  break;
+                }
+              endforeach;
+              echo "<td>".$conceito->presenca."</td>";
+              echo "<td>".$conceito->nota."</td>";
+              echo "</tr>";
+            }
+          endforeach;
+        ?>
+      </tbody>
+    </table>
+  </div>
+</div>
+<?php include RODAPE; ?>

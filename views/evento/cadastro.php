@@ -5,6 +5,7 @@
   $home = 'nav-link';
   $eventos = 'nav-link active';
   $calendario = 'nav-link';
+  $residencia = 'nav-link';
 
   session_start();
   if(!isset($_SESSION['USER']) == true){
